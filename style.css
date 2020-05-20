@@ -1,0 +1,162 @@
+*
+
+{
+    margin : 0;
+    padding: 0;
+}
+
+.navbar{
+
+    padding: 22px 0px;
+
+    border-bottom: none !important;
+}
+.navbar-inverse{
+    background-color: transparent !important;
+}
+.navbar ul li a{
+
+    color: white !important;
+    text-transform: uppercase;
+    font-wight : bold;
+    letter-spacing: 1px;
+    font-size: 14px;
+    transition: all 0.4s ease-in
+}
+
+.navbar ul li a:hover{
+
+    color: greenyellow !important;
+}
+
+.navbar-toggle{
+    border: 1px solid white !important;
+}
+
+.navbar-toggle{
+    border: 1px solid white !important;
+    transition: all 0.3s ease-in;
+}
+
+.navbar-toggle:hover{
+    background-color: greenyellow !important;
+}
+
+.location{
+    border: 1px solid white;
+    border-radius: 50px;
+}
+
+.slider{
+    width:100%;
+    height:700px;
+    background-image: url("./img/villa2.jpeg") ;
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+.slider-overlay{
+    width:100%;
+    height: 100%;
+    background:rgba(0,0,0,0.2);
+    position: relative;
+}
+.slider-content{
+    position: absolute;
+    top: 39%;
+    width: 100% ;
+}
+.icons .fa {
+    font-size: 35px;
+    margin-right: 7px;
+}
+.cta-div{
+    margin-top: 30px ;
+}
+
+.btn1{
+    padding: 11px 18px;
+    background-color: transparent;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 13px;
+    border:2px solid white;
+    border-top-left-radius: 15px;
+    transition: all 0.5s ease-in;
+    margin-right: -6px;
+
+}
+
+.btn1:hover{
+    text-decoration: none;
+    color: white;
+    background-color: springgreen ;
+    border-color: springgreen;
+}
+
+.btn2{
+    padding: 11px 18px;
+    background-color: transparent;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 13px;
+    border:2px solid white;
+    border-bottom-right-radius: 15px;
+    transition: all 0.5s ease-in;
+    margin-right: -10px;
+
+}
+
+.btn2:hover{
+    text-decoration: none;
+    color: white;
+    background-color: orangered ;
+    border-color: orangered;
+}
+.social-networks a.fa{
+    border:1px solid white;
+    padding: 10px;
+    color: white;
+    width: 35px;
+    height: 35px;
+    border-radius: 25px;
+    margin-right: 2px;
+    transition: all 0.4s ease-out;
+}
+
+.social-networks a.fa:hover {
+    text-decoration: none;
+    background-color: orangered;
+    color: white;
+    border:1px solid orangered;
+}
+
+.su{
+    padding-bottom: 250px;
+    background:rgba(0,0,0,0.1);
+}
+
+
+.slider .text{
+    display: inline  ;
+    font-size: 50px;
+    text-transform: uppercase;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
